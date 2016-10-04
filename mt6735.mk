@@ -50,9 +50,13 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    libmtk_symbols \
     audio.a2dp.default \
     audio.r_submix.default \
-    libaudiopolicymanagerdefault \
+    audio_policy.default \
+    audio_policy.stub \
+    audio.usb.default \
+    libaudio-resampler \
     libtinyalsa \
     libtinycompress \
     libtinymix \
