@@ -50,7 +50,6 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    libmtk_symbols \
     audio.a2dp.default \
     audio.r_submix.default \
     audio_policy.default \
